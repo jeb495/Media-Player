@@ -1,3 +1,4 @@
+
 # :headphones: Soji Media Player
 A Simple Music App Made With C#
 
@@ -10,3 +11,5 @@ A Simple Music App Made With C#
     - Music Queue
     - Shuffle
     - Light Mode/Dark Mode Switch
+
+![Screen](https://user-images.githubusercontent.com/54542639/110229750-854a6d00-7ec0-11eb-9117-0e03486f5379.PNG)
