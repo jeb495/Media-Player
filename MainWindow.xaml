@@ -1,0 +1,29 @@
+﻿<Window x:Class="MusicApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MusicApp"
+        mc:Ignorable="d"
+        Title="Soji Media Player" Height="800" Width="450" ResizeMode="CanMinimize" Background="#242120">
+    <Grid>
+        <StackPanel>
+            <Button Content="Locate Song" Margin="10,30" Click="Button_Click_Open" FontFamily="Arial" Height="31" Foreground="White" Background="{x:Null}"/>
+            <Grid Height="111">
+                <Button Content="Stop" Margin="293,10,10,70"  Click="Button_Click" FontFamily="Arial" Background="{x:Null}" Foreground="White"/>
+                <Button Content="Play"  Click="Button_Click_1" Margin="11,10,281,70" FontFamily="Arial" RenderTransformOrigin="0.49,0.484" Background="{x:Null}" BorderBrush="#FF707070" Foreground="White" />
+                <Button Content="Pause" Margin="168,10,156,70" Click="Button_Click_2" Background="{x:Null}" Foreground="White"/>
+
+                <TextBlock Text="&#x9;&#x9;&#x9;&#x9;Volume" Margin="11,554,12,-525" RenderTransformOrigin="0.451,1.371" FontFamily="Arial" Foreground="White"/>
+                <Slider x:Name="volumeSlider" HorizontalAlignment="Left" Width="421" RenderTransformOrigin="0.505,0.446" Margin="11,579,0,-491" ValueChanged="Slider_ValueChanged"  BorderBrush="#FF707070" Foreground="{x:Null}"/>
+                <Image Source="download.png" Margin="11,224,12,-269"/>
+
+            </Grid>
+
+
+
+
+        </StackPanel>
+
+    </Grid>
+</Window>
