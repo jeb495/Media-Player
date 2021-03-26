@@ -1,6 +1,6 @@
 
 
-# :headphones: Soji Media Player
+# :headphones:  Media Player
 A Simple Music App Made With C#
 
 
